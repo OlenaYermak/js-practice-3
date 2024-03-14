@@ -11,9 +11,9 @@ const nextBtn = document.querySelector(".arrow-btn-right")
 
 const swiper = new Swiper(swiperContainer, {
     
-     keyboard: {
-        enabled: true, // Дозволяємо взаємодію зі слайдером за допомогою клавіатури
-    },
+    //  keyboard: {
+    //     enabled: true, // Дозволяємо взаємодію зі слайдером за допомогою клавіатури
+    // },
     mousewheel: {
         enabled: true, // Дозволяємо взаємодію зі слайдером за допомогою миші
     },
