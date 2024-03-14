@@ -17,7 +17,7 @@ const swiper = new Swiper(swiperContainer, {
     mousewheel: {
         enabled: true, // Дозволяємо взаємодію зі слайдером за допомогою миші
     },
-    touch: true,
+    // touch: true,
 });
 console.log(swiper);
 
