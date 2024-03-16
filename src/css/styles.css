@@ -8,6 +8,24 @@
 
 
 /* ======MOBILE START====== */
+
+/* .disabled,
+.swiper-button-next.disabled {
+  opacity: 0.5;
+  color: red;
+  
+  cursor: not-allowed;
+  
+} */
+
+/*//===========*/
+.disabled {
+  opacity: 0.5; /* Зменшуємо прозорість кнопки, щоб вона виглядала вимкненою */
+  cursor: not-allowed; /* Змінюємо курсор на "not-allowed", щоб вказати, що кнопка неактивна */
+  pointer-events: none; /* Вимикаємо всі події миші для кнопки */
+}
+/*//============*/
+
 .projects {
   margin-bottom: 32px;
   margin-top: 32px;
@@ -209,14 +227,7 @@
 /* ======DESKTOP END====== */
 
 
-.swiper-button-prev.disabled,
-.swiper-button-next.disabled {
-  opacity: 0.5;
-  background-color: red;
-  /* Зміна прозорості */
-  cursor: not-allowed;
-  /* Заборона курсору */
-}
+
 
 
 /*=============BENEFITS STAART==========*/
